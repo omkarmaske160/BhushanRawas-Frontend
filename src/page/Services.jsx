@@ -19,7 +19,7 @@ const Services = () => {
                                 </h3>
                                 <p className='mt-4 ml-2 font-semibold'>Company:</p>
                                 <ul className="ml-4 leading-6 text-gray-600 ">
-                                    <li className='flex gap-2 items-center'><img src="./company_logo/lic.png" className='w-8' alt="" /> Life Insurance Corporation of India</li>
+                                    <li className='flex gap-2 items-center'><img src="./company_logo/lic.png" className='w-10' alt="" /> Life Insurance Corporation of India</li>
 
                                 </ul>
                                 <p className='mt-4 ml-2 font-semibold'>Policy Services:</p>
@@ -43,9 +43,9 @@ const Services = () => {
 
                                 <ul className="ml-4 leading-6 text-gray-600">
                                     <li className='flex gap-2 items-center'><img src="./company_logo/starhealth.png" className='w-8' alt="" />Star Health and Allied Insurance</li>
-                                    <li className='flex gap-2 items-center'><img src="./company_logo/icci.png" className='w-8' alt="" />ICICI Lombard</li>
-                                    <li className='flex gap-2 items-center'><img src="./company_logo/niva.png" className='w-8' alt="" />Neva Bupa Health Insurance</li>
-                                    <li className='flex gap-2 items-center'><img src="./company_logo/HDFC.png" className='w-8' alt="" />HDTV ARGO</li>
+                                    <li className='flex gap-2 items-center'><img src="./company_logo/icci.png" className='w-10' alt="" />ICICI Lombard</li>
+                                    <li className='flex gap-2 items-center'><img src="./company_logo/niva.png" className='w-10' alt="" />Neva Bupa Health Insurance</li>
+                                    <li className='flex gap-2 items-center'><img src="./company_logo/HDFC.png" className='w-10' alt="" />HDTV ARGO</li>
                                 </ul>
                             </div>
                         </div>
@@ -60,8 +60,8 @@ const Services = () => {
                                 <p className='mt-4 ml-2 font-semibold'>Company:</p>
 
                                 <ul className="ml-4 leading-6 text-gray-600">
-                                    <li className='flex gap-2 items-center'><img src="./company_logo/iffco.png" className='w-8' alt="" />Iffco Tokio</li>
-                                    <li className='flex gap-2 items-center'><img src="./company_logo/newIndiaA.png" className='w-8' alt="" />New India Assurance</li>
+                                    <li className='flex gap-2 items-center'><img src="./company_logo/iffco.png" className='w-10' alt="" />Iffco Tokio</li>
+                                    <li className='flex gap-2 items-center'><img src="./company_logo/newIndiaA.png" className='w-10' alt="" />New India Assurance</li>
 
                                 </ul>
                                 <p className='mt-4 ml-2 font-semibold'>Policy:</p>
