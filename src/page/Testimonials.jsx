@@ -5,19 +5,24 @@ import "slick-carousel/slick/slick-theme.css";
 
 const testimonialData = [
     {
-        description: "John Doe has been my insurance agent for the past 5 years, and I couldn't be happier with the level of service and attention he provides. He has always been responsive to my needs and has helped me find the right coverage for my family.",
-        name: "Jane Doe",
+        description: "Bhushan Rawas has been my insurance advisor, providing exceptional service and attention. He is responsive to my needs and has helped me navigate insurance claims effectively, ensuring my family's coverage is comprehensive.",
+        name: "Mr.SANTOSH RAUT",
         videoSrc: "./videos/client1.mp4"
     },
     {
-        description: "I have been working with John Doe for the past 3 years, and I can confidently say that he is one of the best insurance agents I have ever worked with. He is knowledgeable, responsive, and always puts my needs first.",
-        name: "John Smith",
+        description: "I have been working with Bhushan Rawas and can confidently say that he is one of the best insurance advisors I have ever worked with. He is knowledgeable, responsive, and always prioritizes my needs. His support during insurance claims has been exceptional, ensuring a smooth process and prompt resolution.",
+        name: "Mr.SANTOSH SABLE PAITHAN",
         videoSrc: "./videos/client2.mp4"
     },
     {
-        description: "I have been working with John Doe for the past 3 years, and I can confidently say that he is one of the best insurance agents I have ever worked with. He is knowledgeable, responsive, and always puts my needs first.",
-        name: "John Smith",
+        description: "Working with Bhushan Rawas has been a great experience. He is knowledgeable, responsive, and always puts my needs first. His expertise in handling insurance claims has been invaluable, providing me with peace of mind during challenging times.",
+        name: "Mr.SUNIL NALBHE",
         videoSrc: "./videos/client3.mp4"
+    },
+    {
+        description: "Bhushan Rawas is an excellent insurance advisor who has consistently demonstrated his expertise and dedication. He is responsive to my needs and ensures that I receive the support and coverage I need during insurance claims.",
+        name: "DR. SUNIL GAIKWAD",
+        videoSrc: "./videos/client4.mp4"
     }
 ];
 

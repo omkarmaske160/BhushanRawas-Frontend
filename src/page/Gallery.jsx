@@ -12,21 +12,10 @@ const Gallery = () => {
         "./g8.jpg",
     ];
 
-    const [numImagesToShow, setNumImagesToShow] = useState(6);
 
-    const updateNumImagesToShow = () => {
-        if (window.innerWidth >= 768) {
-            setNumImagesToShow(8); // MD and larger screens
-        } else {
-            setNumImagesToShow(6); // Smaller screens
-        }
-    };
 
-    useEffect(() => {
-        updateNumImagesToShow();
-        window.addEventListener('resize', updateNumImagesToShow);
-        return () => window.removeEventListener('resize', updateNumImagesToShow);
-    }, []);
+
+
 
     return (
         <>
@@ -37,7 +26,7 @@ const Gallery = () => {
             <section className="bg-gray-100 py-12">
                 <div className="container mx-auto px-4 md:px-20">
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-                        {imageUrls.slice(0, numImagesToShow).map((imageUrl, index) => (
+                        {imageUrls.map((imageUrl, index) => (
                             <div
                                 key={index}
                                 className="relative overflow-hidden cursor-pointer transform transition-transform duration-300 hover:scale-105"

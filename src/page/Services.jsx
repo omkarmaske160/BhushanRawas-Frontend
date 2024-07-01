@@ -3,7 +3,7 @@ import { FaRegLifeRing, FaHeartbeat, FaShieldAlt, FaSolarPanel } from 'react-ico
 
 const Services = () => {
     return (
-        <div className="bg-gray-100 py-12">
+        <section id='services' className="bg-gray-100 py-12">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center">
                     <h2 className="text-4xl font-extrabold font-serif text-gray-900 sm:text-4xl">Our Services</h2>
@@ -19,7 +19,7 @@ const Services = () => {
                                 </h3>
                                 <p className='mt-4 ml-2 font-semibold'>Company:</p>
                                 <ul className="ml-4 leading-6 text-gray-600 ">
-                                    <li className='flex gap-2 items-center'><img src="./company_logo/lic.png" className='w-10' alt="" /> Life Insurance Corporation of India</li>
+                                    <li className='flex gap-2 items-center'><img src="./company_logo/lic.png" className='w-14' alt="" /> Life Insurance Corporation of India (LIC)</li>
 
                                 </ul>
                                 <p className='mt-4 ml-2 font-semibold'>Policy Services:</p>
@@ -29,6 +29,7 @@ const Services = () => {
                                     <li>Policy Revival</li>
                                     <li>Missing Lic Bond's</li>
                                     <li>Money Back</li>
+                                    <li>etc....</li>
                                 </ul>
                             </div>
                         </div>
@@ -42,10 +43,10 @@ const Services = () => {
                                 <p className='mt-4 ml-2 font-semibold'>Company:</p>
 
                                 <ul className="ml-4 leading-6 text-gray-600">
-                                    <li className='flex gap-2 items-center'><img src="./company_logo/starhealth.png" className='w-8' alt="" />Star Health and Allied Insurance</li>
-                                    <li className='flex gap-2 items-center'><img src="./company_logo/icci.png" className='w-10' alt="" />ICICI Lombard</li>
-                                    <li className='flex gap-2 items-center'><img src="./company_logo/niva.png" className='w-10' alt="" />Neva Bupa Health Insurance</li>
-                                    <li className='flex gap-2 items-center'><img src="./company_logo/HDFC.png" className='w-10' alt="" />HDTV ARGO</li>
+                                    <li className='flex gap-2 items-center'><img src="./company_logo/starhealth.png" className='w-14' alt="" />Star Health Insurance co. ltd</li>
+                                    <li className='flex gap-2 items-center'><img src="./company_logo/icci.png" className='w-14' alt="" />ICICI Lombard</li>
+                                    <li className='flex gap-2 items-center'><img src="./company_logo/niva.png" className='w-14' alt="" />Neva Bupa Health Insurance</li>
+                                    <li className='flex gap-2 items-center'><img src="./company_logo/HDFC.png" className='w-14' alt="" />HDFC ARGO</li>
                                 </ul>
                             </div>
                         </div>
@@ -60,8 +61,8 @@ const Services = () => {
                                 <p className='mt-4 ml-2 font-semibold'>Company:</p>
 
                                 <ul className="ml-4 leading-6 text-gray-600">
-                                    <li className='flex gap-2 items-center'><img src="./company_logo/iffco.png" className='w-10' alt="" />Iffco Tokio</li>
-                                    <li className='flex gap-2 items-center'><img src="./company_logo/newIndiaA.png" className='w-10' alt="" />New India Assurance</li>
+                                    <li className='flex gap-2 items-center'><img src="./company_logo/iffco.png" className='w-14' alt="" />IFFCO-Tokio General Insurance Company Limited</li>
+                                    <li className='flex gap-2 items-center'><img src="./company_logo/newIndiaA.png" className='w-14' alt="" />New India Assurance</li>
 
                                 </ul>
                                 <p className='mt-4 ml-2 font-semibold'>Policy:</p>
@@ -83,11 +84,21 @@ const Services = () => {
                                 <h3 className="text-lg font-medium font-serif text-gray-900 flex items-center justify-center">
                                     <FaSolarPanel className="h-6 w-6 mr-2" /> Solar Installation
                                 </h3>
-                                <p className='mt-4 ml-2 font-semibold'>Services:</p>
+                                <p className='mt-4 ml-2 font-semibold'>Company:</p>
 
                                 <ul className="ml-4 leading-6 text-gray-600">
-                                    <li>Off-Grid Solutions</li>
-                                    <li>Grid-Tied Systems</li>
+                                    <li className='flex gap-2 items-center'><img src="./company_logo/adani.png" className='w-14' alt="" />Adani Solar </li>
+                                    <li className='flex gap-2 items-center'><img src="./company_logo/tata.png" className='w-14' alt="" />Tata Power Solar</li>
+                                    <li className='flex gap-2 items-center'>Other....</li>
+
+                                </ul>
+                                <p className='mt-4 ml-2 font-semibold'>Services:</p>
+
+
+                                <ul className="ml-4 leading-6 text-gray-600">
+
+                                    <li>All type  of on Grid solar</li>
+                                    <li>Home & Commercial Installation</li>
                                 </ul>
 
                             </div>
@@ -97,7 +108,7 @@ const Services = () => {
                     </div>
                 </div >
             </div >
-        </div >
+        </ section>
     );
 };
 

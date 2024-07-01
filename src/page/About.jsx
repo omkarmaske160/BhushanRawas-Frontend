@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import { FaWhatsapp } from 'react-icons/fa';
+import { Link as ScrollLink } from 'react-scroll';
 
 const About = () => {
     const userDetails = [
@@ -33,6 +35,9 @@ const About = () => {
             transition: { duration: 1, ease: 'easeOut', delay: 1 },
         },
     };
+    const openWhatsApp = () => {
+        window.open('https://wa.me/919404982960', '_blank');
+    };
 
     return (
         <div id="about" ref={ref} className="text-white p-4 w-full md:mb-16">
@@ -58,7 +63,7 @@ const About = () => {
                     >
                         <h1 className="font-bold text-4xl font-serif text-center md:text-left text-black">About Me</h1>
                         <p className="text-gray-600 mb-4 mt-4 md:pt-5 md:mt-0 text-center md:text-left">
-                            I am <strong className='text-gray-700 font-serif'>Bhushan Rawas</strong>, an insurance agent with over 7 years of experience. I specialize in life and health insurance, along with other types of coverage. My goal is to provide the best insurance solutions tailored to your needs.
+                            I am <strong className='text-gray-700 font-serif'>Bhushan Rawas</strong>, an insurance advisor with over 7 years of experience. I specialize in life and health insurance, along with other types of coverage. My goal is to provide the best insurance solutions tailored to your needs.
                         </p>
                         <div className="space-y-4 w-full mt-10 text-left">
                             {userDetails.map((detail, index) => (
@@ -69,12 +74,25 @@ const About = () => {
                             ))}
                         </div>
 
-                        <div className="w-full flex justify-center mt-5 md:justify-start">
-                            <button
-                                className="bg-slate-300 mt-7 font-serif hover:text-slate-200 hover:bg-slate-500 transition-all duration-300 font-bold text-black px-5 py-3 rounded-full"
-                            >
-                                CONTACT ME
-                            </button>
+                        <div className='flex '>
+                            <div className="w-full flex justify-center mt-5 md:justify-start items-center">
+                                <ScrollLink
+                                    to="contact"
+                                    smooth={true}
+                                    duration={500}
+                                    className="bg-slate-300 mt-7  font-serif hover:text-slate-200 hover:bg-slate-500 transition-all duration-300 font-bold text-black px-5 py-6 md:py-3 rounded-full"
+                                >
+                                    CONTACT ME
+                                </ScrollLink>
+                            </div>
+                            <div className="w-full flex justify-center mt-5 md:justify-start items-center">
+                                <button
+                                    onClick={openWhatsApp}
+                                    className="flex items-center  bg-green-500 mt-7 font-serif hover:bg-green-700 transition-all duration-300 font-bold text-white px-5 py-3 rounded-full"
+                                >
+                                    <FaWhatsapp className="mr-2 text-xl" /> WhatsApp Me
+                                </button>
+                            </div>
                         </div>
                     </motion.div>
                 </div>
