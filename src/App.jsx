@@ -6,6 +6,7 @@ import Services from './page/Services'
 import Contact from './page/Contact'
 import Footer from './components/Footer'
 import Gallery from './page/Gallery'
+import 'react-toastify/dist/ReactToastify.css'
 
 const App = () => {
   return <div className='overflow-hidden'>

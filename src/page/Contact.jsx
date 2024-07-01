@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { toast } from 'react-toastify';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -20,7 +21,7 @@ const Contact = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch('YOUR_BACKEND_URL', {
+            const response = await fetch('http://localhost:5000/api/v1/admin/add-feedback', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -36,16 +37,20 @@ const Contact = () => {
                     mobile: '',
                     description: '',
                 });
-                alert('Form submitted successfully');
+                toast("We Will Reach You Soon");
+
             } else {
                 // Handle server errors
-                alert('Form submission failed');
+                toast("Something Went Wrong");
+
             }
         } catch (error) {
             console.error('Error submitting form:', error);
             alert('Form submission failed');
         }
     };
+
+
 
     return (
         <>
