@@ -21,7 +21,7 @@ const Contact = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch('http://localhost:5000/api/v1/admin/add-feedback', {
+            const response = await fetch('https://bhushanrawas-backend.onrender.com/api/v1/admin/add-feedback', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
