@@ -10,6 +10,8 @@ const Gallery = () => {
         "./g6.jpg",
         "./g3.jpg",
         "./g8.jpg",
+        "./g9.jpg",
+        "./g10.jpg",
     ];
 
 
