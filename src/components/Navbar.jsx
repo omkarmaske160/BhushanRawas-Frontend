@@ -23,7 +23,7 @@ const Navbar = () => {
         <header className="w-full border-b bg-slate-100 fixed z-10">
             <div className="container px-10 py-6 md:py-8 flex flex-col items-center gap-1.5 text-center md:flex-row md:gap-4 lg:gap-6">
                 <div className="space-y-1 font-serif">
-                    <h1 className="text-2xl font-bold leading-none sm:text-3xl">Bhushan Rawas</h1>
+                    <h1 className="text-2xl font-bold leading-none sm:text-3xl">BHUSHAN RAWAS</h1>
                     <p className="text-sm text-gray-500 ">Sr.Insurance Advisor</p>
                 </div>
                 <nav className="flex items-center font-sans justify-center gap-4 md:ml-auto md:order-2 md:gap-8">
